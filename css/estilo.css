@@ -1,0 +1,260 @@
+@import url('https://fonts.googleapis.com/css?family=Comfortaa');
+* {
+    font-family: 'Comfortaa', cursive;
+
+}
+.contenedor {
+    display:flex;
+    flex-direction:column;
+    max-width: 956px;
+    margin:0 auto;
+}
+
+
+body {
+    background-color: black;
+    background-image: url(images/oscuro.jpg);
+    background-attachment: fixed;
+    color: white;
+}
+
+header {
+    margin-top: 15px;
+    height: 100px;
+    padding: 5px;
+    background-color: rgba(0, 0, 0, 0.8);
+    border-radius: 18px;
+    margin-left: 0.66%;
+    margin-right: 0.66%;
+    display: flex;
+    flex-flow: column wrap;
+    align-items: center;
+}
+
+
+
+.Lista1 input {
+    margin: auto; 
+    background: transparent;
+    border-color: rgb(147, 255, 219);
+    border-top-width: 0px;
+    border-bottom-width: 2px;
+    border-right-width: 0px;
+    border-left-width: 0px;
+    
+    box-shadow: none;
+    outline: none;
+
+    color: rgb(147, 255, 219);
+
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    -ms-appearence: none;
+    -o-appearance: none;
+    appearance: none;
+    font-size: 19px;
+    font-weight: 400;
+    text-align: center;
+}
+
+header ::-webkit-input-placeholder {
+    color: rgb(147, 255, 219, 0.75);
+}
+
+
+
+ul.nuevaLista {
+    width: 100%;
+    float: left;
+    position:relative;
+}
+
+ul.nuevaLista li {
+    width: 100%;
+    height: 50px;
+    float: left;
+    background: transparent;
+    border radius: 5px;
+    box-shadow: 0px 1px 2px rgb(147, 255, 219, 0.10);
+    margin: 0 0 0 0;
+    position: relative;
+    font-size: 16px;
+    vertical-align: middle;
+
+}ul.nuevaLista2 {
+    width: 100%;
+    float: left;
+    position:relative;
+}
+
+ul.nuevaLista2 li {
+    width: 100%;
+    height: 50px;
+    float: left;
+    background: transparent;
+    border radius: 5px;
+    margin: 0 0 0 0;
+    position: relative;
+    font-size: 16px;
+    vertical-align: middle;
+
+}
+
+.contenedor1 {
+    height: 250px;
+    overflow: auto;
+    margin-top: 15px;
+    width: 32%;
+    margin-left: 0.66%;
+    margin-right: 0.66%;
+    padding: 5px;
+    background-color: rgba(0, 0, 0, 0.8);
+    border-radius: 18px;
+    padding: 20px 20px 20px 20px;
+    flex-wrap: wrap;
+} 
+
+.contenedor1 h4{
+    padding-bottom:20px;
+    text-align:Center;
+    color:    #93ffdb;
+
+}
+.titulo{
+    margin-top: 20px;
+    padding-bottom:5px;
+    padding-top: 20px;
+    text-align:Center;
+    color:    #93ffdb;
+    vertical-align: middle;
+    
+
+}
+
+ul.todo li:last-of-type {
+    margin: 0;
+}
+li {
+    width: 100%;
+    height: 50px;
+    float: left;
+    background: transparent;
+    border radius: 5px;
+    box-shadow: 0px 1px 2px rgb(147, 255, 219, 0.10);
+    margin: 0 0 0 0;
+    position: relative;
+    font-size: 16px;
+    vertical-align: middle;
+}
+
+li button {
+    float:right;
+    margin-top: 20px;
+    position: relative;
+    right: 0;
+    vertical-align: middle;
+    background: transparent;
+    border-color: #93ffdb;
+    border:0;
+    height:16px;
+    width:16px;
+    margin-right: 5px;
+    
+}
+
+
+
+
+.subTarea{
+    margin-top: 20px;
+    width: 80%;
+    background: transparent;
+    border-color: rgb(147, 255, 219);
+    border-top-width: 0px;
+    border-bottom-width: 1px;
+    border-right-width: 0px;
+    border-left-width: 0px;
+    color: rgb(147, 255, 219);
+
+}
+
+.destruir {
+    margin-top:10px;
+    width: 22px;
+    height:22px;
+    float:right;
+    color:white;
+    z-index: 2;
+    border-radius: 100px;
+    outLine: none;
+    border-color: rgb(147, 255, 219);
+    box-shadow: none;
+    border-width: 2px;
+    background: transparent;
+    -webkit-transform: translate(-50%, -50%);
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    -ms-appearence: none;
+    -o-appearance: none;
+    appearance: none;
+}
+
+
+
+
+¡.formulario > div {
+    padding: 0;
+    }
+
+.formulario .checkbox label {
+    display: inline-block;
+    cursor: pointer;
+    color: rgb(147, 255, 219);
+    position: relative;
+    padding: 5px 15px 5px 51px;
+    font-size: 12px;
+    border-radius: 5px;
+    -webkit-transition: all 0.3s ease;
+    -o-transition: all 0.3s ease;
+    transition: all 0.3s ease; 
+}
+.formulario .checkbox label:hover {
+    background: rgba(147, 255, 219, 0.1); 
+}
+
+.formulario .checkbox label:before {
+    content: "";
+    display: inline-block;
+    width: 11px;
+    height: 11px;
+    position: absolute;
+    left: 15px;
+    border-radius: 50%;
+    background: none;
+    border: 1.5px solid rgb(147, 255, 219); 
+}
+
+
+.formulario .checkbox label:before {
+    border-radius: 3px; 
+}
+
+.formulario .checkbox input[type="checkbox"] {
+    display: none; 
+}
+
+.formulario .checkbox input[type="checkbox"]:checked + label:before {
+display: none; 
+}
+
+.formulario .checkbox input[type="checkbox"]:checked + label {
+    background: rgb(93, 255, 174);
+    color:  #000;
+    padding: 5px 15px; 
+}
+
+.lists{
+    display:flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
