@@ -32,7 +32,6 @@ header {
 }
 
 
-
 .Lista1 input {
     margin: auto; 
     background: transparent;
@@ -61,7 +60,11 @@ header ::-webkit-input-placeholder {
     color: rgb(147, 255, 219, 0.75);
 }
 
-
+.addTask {
+    max-height:180px;
+    overflow:auto;
+    
+}
 
 ul.nuevaLista {
     width: 100%;
@@ -97,12 +100,10 @@ ul.nuevaLista2 li {
     position: relative;
     font-size: 16px;
     vertical-align: middle;
-
 }
 
 .contenedor1 {
-    height: 250px;
-    overflow: auto;
+    max-height: 250px;
     margin-top: 15px;
     width: 32%;
     margin-left: 0.66%;
@@ -112,6 +113,7 @@ ul.nuevaLista2 li {
     border-radius: 18px;
     padding: 20px 20px 20px 20px;
     flex-wrap: wrap;
+
 } 
 
 .contenedor1 h4{
@@ -257,4 +259,55 @@ display: none;
     display:flex;
     flex-direction: row;
     flex-wrap: wrap;
+}
+
+
+
+
+
+
+
+
+
+/*chekbox truco*/
+
+
+.primeraClase {
+    cursor: pointer;
+    color: rgb(147, 255, 219);
+    position: relative;
+    padding: 5px 15px 5px 51px;
+    font-size: 12px;
+    border-radius: 5px;
+    width: 185px;
+    height: 22px;
+}
+.primeraClase:hover {
+    background: rgba(147, 255, 219, 0.1); 
+
+}
+.cuadrado {
+    display: inline-block;
+    width: 13px;
+    height: 13px;
+    position: absolute;
+    left: 15px;
+    border-radius: 2.5px;
+    background: none;
+    border: 1.5px solid rgb(147, 255, 219); 
+}
+
+.segundaClase {
+    cursor: pointer;
+    color: rgb(147, 255, 219);
+    position: relative;
+    padding: 5px 15px 5px 51px;
+    font-size: 12px;
+    border-radius: 5px;
+    width: 145px;
+    height: 22px;
+    background: rgb(93, 255, 174);
+    color:  #000;
+    padding: 5px 15px; 
+    -webkit-transition: width 0.25s linear 0s;
 }
