@@ -22,7 +22,7 @@ header {
     margin-top: 15px;
     height: 100px;
     padding: 5px;
-    background-color: rgba(0, 0, 0, 0.8);
+    background-color: rgba(0, 0, 0, 0.6);
     border-radius: 18px;
     margin-left: 0.66%;
     margin-right: 0.66%;
@@ -103,13 +103,13 @@ ul.nuevaLista2 li {
 }
 
 .contenedor1 {
-    max-height: 250px;
+    height: 250px;
     margin-top: 15px;
     width: 32%;
     margin-left: 0.66%;
     margin-right: 0.66%;
     padding: 5px;
-    background-color: rgba(0, 0, 0, 0.8);
+    background-color: rgba(0, 0, 0, 0.6);
     border-radius: 18px;
     padding: 20px 20px 20px 20px;
     flex-wrap: wrap;
@@ -204,56 +204,6 @@ li button {
 
 
 
-¡.formulario > div {
-    padding: 0;
-    }
-
-.formulario .checkbox label {
-    display: inline-block;
-    cursor: pointer;
-    color: rgb(147, 255, 219);
-    position: relative;
-    padding: 5px 15px 5px 51px;
-    font-size: 12px;
-    border-radius: 5px;
-    -webkit-transition: all 0.3s ease;
-    -o-transition: all 0.3s ease;
-    transition: all 0.3s ease; 
-}
-.formulario .checkbox label:hover {
-    background: rgba(147, 255, 219, 0.1); 
-}
-
-.formulario .checkbox label:before {
-    content: "";
-    display: inline-block;
-    width: 11px;
-    height: 11px;
-    position: absolute;
-    left: 15px;
-    border-radius: 50%;
-    background: none;
-    border: 1.5px solid rgb(147, 255, 219); 
-}
-
-
-.formulario .checkbox label:before {
-    border-radius: 3px; 
-}
-
-.formulario .checkbox input[type="checkbox"] {
-    display: none; 
-}
-
-.formulario .checkbox input[type="checkbox"]:checked + label:before {
-display: none; 
-}
-
-.formulario .checkbox input[type="checkbox"]:checked + label {
-    background: rgb(93, 255, 174);
-    color:  #000;
-    padding: 5px 15px; 
-}
 
 .lists{
     display:flex;
